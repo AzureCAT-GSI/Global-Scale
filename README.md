@@ -8,7 +8,7 @@ The PowerPoint includes full speaker notes helping you understand the slides, an
 Watch the [video](https://gsiazurecoecontent.blob.core.windows.net/architecting-global-scale-solutions/todo.mp4).
 
 ## Demos
-1. Demo 1
-[[source code](https://github.com/GSIAzureCOE/Global-Scale/blob/master/todo)]
-[[demo script](https://github.com/GSIAzureCOE/Global-Scale/blob/master/todo.docx)]
-[[video](https://gsiazurecoecontent.blob.core.windows.net/architecting-global-scale-solutions/todo.mp4)]
+1. Global Scale Demo
+[[source code](https://github.com/GSIAzureCOE/globalscaledemo)]
+[[demo script](https://github.com/GSIAzureCOE/globalscaledemo/blob/master/README.md)]
+[[video](https://gsiazurecoecontent.blob.core.windows.net/architecting-global-scale-solutions/globalscale.mp4)]
