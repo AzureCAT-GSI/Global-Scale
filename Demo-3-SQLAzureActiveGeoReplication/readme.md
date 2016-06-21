@@ -60,7 +60,7 @@ This guide provides an introduction to Azure SQL Database Active Geo-Replication
 
   <img src="./media/step4.png" style="max-height: 500px; max-width: 500px" />
 
-6. Click on **Configure Geo-Replication**. Choose a target region for the secondary read-only database. Based on Azure paired regions, a secondary database server region will be recommended.
+6. Click on **Configure Geo-Replication**. Choose a target region for the secondary read-only database. Based on [Azure paired regions](https://azure.microsoft.com/en-us/documentation/articles/best-practices-availability-paired-regions/), a secondary database server region will be recommended.
 
   <img src="./media/step5.png" style="max-height: 500px; max-width: 500px" />
 
