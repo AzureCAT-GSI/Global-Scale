@@ -10,8 +10,8 @@ This guide provides an introduction on how not to design Azure Web Apps for glob
 *Estimated time: 8 minutes*
 
 1. Open **WebMatrix** and click **New/Template Gallery**.
-
 <img src="./media/step1.png" style="max-width: 500px" />
+
 
 2. Choose the **Photo Gallery Template** in the ASP.NET section.
 <img src="./media/step2.png" style="max-width: 500px" />
