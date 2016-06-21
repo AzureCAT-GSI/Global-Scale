@@ -71,3 +71,50 @@ This guide provides an introduction to how to scale out (horizontally) using Azu
   <img src="./media/prepstep22.png" style="max-width: 500px" />
 
  > **Once you have completed the above setup steps, make sure to run the application in every deployed region prior to the demonstration.** The application code will provision the required storage containers and queues when run for the first time.
+
+## Demo steps
+
+*Estimated time: 8 minutes*
+
+1. Open one of the deployed web apps.
+2. Log in to the web app and upload a picture.
+
+  <img src="./media/step1.png" style="max-width: 500px" />
+
+3. Go to the web app in the Azure portal. Click on **Settings** then click on the **WebJobs** option.
+
+  <img src="./media/step2.png" style="max-width: 500px" />
+
+4. Show that the WebJob is set to run continuously.
+5. Click the **Logs URL** to open the Site Control Manager (SCM) for the WebJob.
+
+  <img src="./media/step4.png" style="max-width: 500px" />
+
+6. Point out that each WebJob run normally takes 4-7 seconds which would kill our performance and user experience if we processed in synchronously within the web app. Instead, we offload the processing asynchronously to a background process (the WebJob). Point out that the job is activated when a queue message is received.
+
+  <img src="./media/step5.png" style="max-width: 500px" />
+
+7. Click on one of the job runs. Show that it was activated by a storage queue message and point out that the queue message contents are shown on the screen.
+8. Click the **Toggle Output** button. Show that log messages from our code appear in the output allowing us to gain insight into the running state for the asynchronous job.
+
+  <img src="./media/step6.png" style="max-width: 500px" />
+
+9. Go back to the portal. Click on the web app **Settings** then click on **Scale** setting.
+
+  <img src="./media/step8.png" style="max-width: 500px" />
+
+10. Show that you can scale the web app manually or automatically based on metrics. Use the slider to show how to scale the web app out (horizontally). Be sure to point out that as you scale the number of web apps out, the number of WebJob instances is also scaled out which occurs only when the WebJob is being run in continuous mode.
+
+  <img src="./media/step9.png" style="max-width: 500px" />
+
+11. In settings, click on **App Service Plan**. Point out the quotas and show the pricing tier. Click on **Pricing Tier**.
+
+  <img src="./media/step11.png" style="max-width: 500px" />
+
+12. Show that we can change the pricing tier which changes the number of cores and amount of RAM that each instance is using. Point out that this is how we scale up/down (vertically).
+
+  <img src="./media/step12.png" style="max-width: 500px" />
+
+## Clean up
+
+To clean up this environment, simply delete the resource group that was created above.
