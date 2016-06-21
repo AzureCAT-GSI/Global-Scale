@@ -10,9 +10,13 @@ This guide provides an introduction on how not to design Azure Web Apps for glob
 *Estimated time: 8 minutes*
 
 1. Open **WebMatrix** and click **New/Template Gallery**.
+
   <img src="./media/step1.png" style="max-width: 500px" />
+  
 2. Choose the **Photo Gallery Template** in the ASP.NET section.
+
   <img src="./media/step2.png" style="max-width: 500px" />
+  
 3. Optionally create an Azure Web App and deploy the solution. This enables the audience to play with the application live.
   <img src="./media/step3.png" style="max-width: 500px" />
 4. Expand the **App_Data** node in the Solution Explorer. Point out that the database is deployed to the web app's file system. All instances of the web app will use the same database file causing significant I/O contention.
