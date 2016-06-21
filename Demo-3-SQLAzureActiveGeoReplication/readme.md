@@ -64,8 +64,22 @@ This guide provides an introduction to Azure SQL Database Active Geo-Replication
 values(0, 'Mr.',  'Kirk',  'A.', 'Evans', NULL, 'GlobalDemo', 'adventure-works\pamela0','orlando0@adventure-works.com','245-555-0173', 'L/Rlwxzp4w7RWmEgXX+/A7cXaePEPcp+KwQhl2fJL7w=','1KjXYs4=', newid(), getdate())
     ```
 
-15. Verify that the record was added to the primary database by running the following SQL query.
+15. Verify that the record was added to the primary database by running the following SQL query against the primary database.
 
     ```sql
   select * from saleslt.customer where CompanyName='GlobalDemo' 
+    ```
+
+16. Verify that the record was replicated to the secondary database by running the same SQL query against the secondary database.
+17. Demonstrate Azure SQL Database using Azure Powershell using the following commands.
+
+    ```powershell
+  $database = Get-AzureRMSqlDatabase `
+              –DatabaseName "advworks" `
+              –ResourceGroupName "sqldemo" `
+              –ServerName "kirke-eastus" 
+
+  $database | Set-AzureRMSqlDatabaseSecondary `
+              –Failover `
+              –PartnerResourceGroupName "sqldemo"
     ```
