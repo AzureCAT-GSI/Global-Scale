@@ -18,15 +18,15 @@ This guide provides an introduction to how to scale out (horizontally) using Azu
 1. Go to [manage.windowsazure.com](https://manage.windowsazure.com) and go to the **Active Directory** node.
 2. Click the **Add** button in the tray.
 
-  <img src="./media/prestep2.png" style="max-width: 500px" />
+  <img src="./media/prepstep2.png" style="max-width: 500px" />
 
 3. Choose **Add an application my organization is developing**.
 
-  <img src="./media/prestep3.png" style="max-width: 500px" />
+  <img src="./media/prepstep3.png" style="max-width: 500px" />
 
 4. Give the application a name such as GlobalScaleDemo. Leave the default application type as **Web application and/or Web API**.
 
-  <img src="./media/prestep2.png" style="max-width: 500px" />
+  <img src="./media/prepstep2.png" style="max-width: 500px" />
 
 5. For the **Sign-On URL**, enter the base URL for the sample which by default is **https://localhost:44300/**.
 6. For the **App ID URI**, enter **https://[Your_Azure_Active_Directory_Tenant_Name]/SinglePageApp-DotNet**, replacing **[Your_Azure_Active_Directory_Tenant_Name]** with the name of your Azure Active Directory tenant.
