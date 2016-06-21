@@ -52,4 +52,16 @@ This guide provides an introduction to how to scale out (horizontally) using Azu
 15. Update the **aadAudience** parameter with the Client ID of the Azure Active Directory application that you just registered.
 16. Optionally, edit the **siteLocations** array to indicate the regions that you would like to deploy to.
 
-  <img src="./media/prepstep19.png" style="max-width: 500px" />
+  <img src="./media/prepstep17.png" style="max-width: 500px" />
+  
+17. Right-click on the **GlobalDemo.Deploy** project and choose **New Deployment**.
+
+  <img src="./media/prepstep18.png" style="max-width: 500px" />
+
+18. Specify (or create) a resource group and click **Deploy**. The deployment can take up to 30 minutes due to the long amount of time that is needed to deploy Azure Redis Cache.
+
+ > When provisioning is complete, double-check the AppSettings for each web application. There have been cases where the settings were not correctly applied. If this happens, you can try deleting the web application and App Service Plan and running the deployment again. Since the Redis Cache has already been deployed, the second deployment should complete much more quickly.
+
+19. Find the URLs for your web applications in the portal. For each web application, add the URL to the Azure Active Directory application as a **Reply URL**, making sure to use **HTTPS** as the protocol and to include a trailing forward slash.
+
+ > **Once you have completed the above setup steps, make sure to run the application in every deployed region prior to the demonstration.** The application code will provision the required storage containers and queues when run for the first time.
