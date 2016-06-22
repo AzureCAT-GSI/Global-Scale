@@ -20,3 +20,6 @@ The PowerPoint includes full speaker notes helping you understand the slides, an
   * [Tables](https://azure.microsoft.com/en-us/documentation/articles/storage-dotnet-how-to-use-tables/)
   * [Queues](https://azure.microsoft.com/en-us/documentation/articles/storage-dotnet-how-to-use-queues/)
 * [Azure Traffic Manager](https://azure.microsoft.com/en-us/services/traffic-manager/)
+
+## Code of Conduct
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
