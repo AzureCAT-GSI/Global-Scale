@@ -105,11 +105,31 @@ This guide introduces a global scale solutions that provides active/active repli
   <img src="./media/step5.1.png" style="max-width: 500px; max-height: 500px" />
 
 10. Click the **Login** button on the top right corner of the site. Log in using an account from the Azure Active Directory tenant that you used previously to provision the application.
+
+  <img src="./media/step6.png" style="max-width: 500px; max-height: 500px" />
+
 11. Once logged in, you can now see the **My Photos** and **Upload** links in the top navigation bar.
+
+  <img src="./media/step7.png" style="max-width: 500px; max-height: 500px" />
+
 12. Click the **Upload** link in the top navigation bar and upload a new photo. Show that the photo does not immediately appear in the gallery. The WebJob has to process the photo asynchronously before it will appear in the gallery.
 13. Click the **My Photos** link the in the top navigation bar, then click the **Clear All Users Cache** button. This button clears the Redis Cache used to cache today's photos for all users and will force an Azure Table Storage query.
+
+  <img src="./media/step9.png" style="max-width: 500px; max-height: 500px" />
+
 14. Click the **Home** link in the top navigation bar. Point out that the time shown is the time required to run a full table scan against our Azure Table Storage table.
+
+  <img src="./media/step10.png" style="max-width: 500px; max-height: 500px" />
+
 15. Wait at least 10 seconds before clicking the **Populate** button. This button will cause the next query to come from Redis Cache which will take significantly less time.
+
+  <img src="./media/step12.png" style="max-width: 500px; max-height: 500px" />
+
 16. Click the **Populate** button again and show that the time reduces to milliseconds. This is because we are caching the output for 10 seconds using output cache. Under load, cache can have drastic effects. 20,000 requests per second, cached for only one second can save 20,000 requests to the backing store.
+
+  <img src="./media/step12.1.png" style="max-width: 500px; max-height: 500px" />
+
 17. Change the URL to point to the other web site in your resource group. They web apps are ordered sequentially from zero (0) so just change the last number in the URL to one (1).
 18. Show that the photo appears in this region as well and show that the storage account name ends with a one (1) while the URL ends with zero (0). The photo originated in region zero and was replicated to the current region asynchronously by our WebJob.
+
+  <img src="./media/step14.png" style="max-width: 500px; max-height: 500px" />
