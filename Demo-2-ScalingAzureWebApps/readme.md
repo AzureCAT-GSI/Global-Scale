@@ -9,7 +9,7 @@ This guide provides an introduction to how to scale out (horizontally) using Azu
 * Azure Powershell 0.98
   * Azure Powershell 1+ breaks the Powershell script
 * Visual Studio 2015
-* [Solution code](https://github.com/kaevans/globalscaledemo)
+* [Solution code](https://github.com/GSIAzureCOE/globalscaledemo)
 
 ## Setup
 
