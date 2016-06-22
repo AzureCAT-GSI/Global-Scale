@@ -10,3 +10,13 @@ The PowerPoint includes full speaker notes helping you understand the slides, an
 2. Scaling Azure Web Apps/Jobs [[Demo script](./Demo-2-ScalingAzureWebApps/readme.md)]
 3. Azure SQL Database Active Geo-Replication [[Demo script](./Demo-3-SQLAzureActiveGeoReplication/readme.md)]
 4. Active/Active Application Deployment
+
+## Covered Azure Services
+* [Azure Web Apps](https://azure.microsoft.com/en-us/services/app-service/web/)
+* [Azure Redis Cache](https://azure.microsoft.com/en-us/services/cache/)
+* [Azure SQL Database](https://azure.microsoft.com/en-us/services/sql-database/)
+* [Azure Storage](https://azure.microsoft.com/en-us/services/storage/)
+  * [Blobs](https://azure.microsoft.com/en-us/documentation/articles/storage-dotnet-how-to-use-blobs/)
+  * [Tables](https://azure.microsoft.com/en-us/documentation/articles/storage-dotnet-how-to-use-tables/)
+  * [Queues](https://azure.microsoft.com/en-us/documentation/articles/storage-dotnet-how-to-use-queues/)
+* [Azure Traffic Manager](https://azure.microsoft.com/en-us/services/traffic-manager/)
