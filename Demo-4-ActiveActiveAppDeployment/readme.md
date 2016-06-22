@@ -13,7 +13,7 @@ This guide introduces a global scale solutions that provides active/active repli
 * Azure SDK 2.7 or higher
 * Azure Powershell 0.98
   * Azure Powershell 1.0+ breaks the Powershell script
-* [Solution code](https://github.com/kaevans/globalscaledemo)
+* [Solution code](https://github.com/GSIAzureCOE/globalscaledemo)
 
 ## Setup
 *Estimated time: 1 hour*
