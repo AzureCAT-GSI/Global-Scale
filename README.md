@@ -6,10 +6,10 @@ Download the [PowerPoint](./Architecting Global Scale Solutions.pptx).
 The PowerPoint includes full speaker notes helping you understand the slides, and everything you need to deliver the session.
 
 ## Demos
-1. Original Photo Gallery *(What Not To Do)* [[Demo script](./Demo-1-OriginalPhotoGallery/readme.md)] [Video]
+1. Original Photo Gallery *(What Not To Do)* [[Demo script](./Demo-1-OriginalPhotoGallery/readme.md)] [[Video](https://gsiazurecoecontent.blob.core.windows.net/architecting-global-scale-solutions/webmatrix.mp4)]
 2. Scaling Azure Web Apps/Jobs [[Demo script](./Demo-2-ScalingAzureWebApps/readme.md)] [[Sample application](https://github.com/GSIAzureCOE/globalscaledemo)] [Video]
-3. Azure SQL Database Active Geo-Replication [[Demo script](./Demo-3-SQLAzureActiveGeoReplication/readme.md)] [Video]
-4. Active/Active Application Deployment [[Demo script](./Demo-4-ActiveActiveAppDeployment/readme.md)] [[Sample application](https://github.com/GSIAzureCOE/globalscaledemo)] [Video]
+3. Azure SQL Database Active Geo-Replication [[Demo script](./Demo-3-SQLAzureActiveGeoReplication/readme.md)] [[Video](https://gsiazurecoecontent.blob.core.windows.net/architecting-global-scale-solutions/active%20geo%20replication.mp4)]
+4. Active/Active Application Deployment [[Demo script](./Demo-4-ActiveActiveAppDeployment/readme.md)] [[Sample application](https://github.com/GSIAzureCOE/globalscaledemo)] [[Video](https://gsiazurecoecontent.blob.core.windows.net/architecting-global-scale-solutions/globalscale.mp4)]
 
 ## Covered Azure Services
 * [Azure Web Apps](https://azure.microsoft.com/en-us/services/app-service/web/)
