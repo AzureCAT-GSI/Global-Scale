@@ -7,7 +7,7 @@ The PowerPoint includes full speaker notes helping you understand the slides, an
 
 ## Demos
 1. Original Photo Gallery *(What Not To Do)* [[Demo script](./Demo-1-OriginalPhotoGallery/readme.md)] [[Video](https://gsiazurecoecontent.blob.core.windows.net/architecting-global-scale-solutions/webmatrix.mp4)]
-2. Scaling Azure Web Apps/Jobs [[Demo script](./Demo-2-ScalingAzureWebApps/readme.md)] [[Sample application](https://github.com/GSIAzureCOE/globalscaledemo)] [Video]
+2. Scaling Azure Web Apps/Jobs [[Demo script](./Demo-2-ScalingAzureWebApps/readme.md)] [[Sample application](https://github.com/GSIAzureCOE/globalscaledemo)] [[Video](https://gsiazurecoecontent.blob.core.windows.net/architecting-global-scale-solutions/Demo2.mp4)]
 3. Azure SQL Database Active Geo-Replication [[Demo script](./Demo-3-SQLAzureActiveGeoReplication/readme.md)] [[Video](https://gsiazurecoecontent.blob.core.windows.net/architecting-global-scale-solutions/active%20geo%20replication.mp4)]
 4. Active/Active Application Deployment [[Demo script](./Demo-4-ActiveActiveAppDeployment/readme.md)] [[Sample application](https://github.com/GSIAzureCOE/globalscaledemo)] [[Video](https://gsiazurecoecontent.blob.core.windows.net/architecting-global-scale-solutions/globalscale.mp4)]
 
